@@ -1,0 +1,161 @@
+<html>
+<head>
+  <title>Visualizing and Forecasting Covid-19 cases in United States</title>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  <script src="script.js"></script>
+  <body style="background-color:rgb(255, 254, 255);">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=PT+Sans" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+  
+img.ex1 {
+  margin-top: 25px;
+}
+p.ex2{
+
+  margin-left: 50px;
+  margin-right: 50px;
+  font-family:"PT Sans";
+  margin-bottom: 10px;
+  /* font-style:italic; */
+  color: rgb(116, 115, 167);
+  line-height: 1.2;
+  
+}
+</style>
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color:sienna;}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: rgb(116, 115, 167);
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+</style>
+</head>
+<body>
+  <center><h1 style="margin-top: 20px;"> <b> Visualizing and Forecasting Covid-19 cases in United States</b> </h1></center>    
+    <body>
+      
+      
+      <div class="navbar">
+        <a href="index.html">Introduction</a>
+        <a href="overall_USA.html">Overall USA trend</a>
+        <a href="state_wise_cases.html">State Wise Total Cases and Deaths</a>
+        <a href="State_wise_policychanges.html">State Wise Policy Changes</a>
+        <a href="forecasting.html">Forecasting</a>
+        <a href="summary.html">Summary</a>
+        <a href="https://www.worldometers.info/coronavirus/country/us/">Worldometer</a>
+      </div>
+  
+  
+  
+
+
+</body>
+<body> 
+  
+  <div class='tableauPlaceholder' id='viz1608039245183' style='position: relative'>
+    <noscript>
+      <a href='#'>
+        <img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Da&#47;DataVizProject2_16080384223060&#47;PolicyEffects&#47;1_rss.png' style='border: none' />
+      </a>
+    </noscript>
+
+    <object class='tableauViz'  style='display:none;'>
+      <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+      <param name='embed_code_version' value='3' /> 
+      <param name='site_root' value='' />
+      <param name='name' value='DataVizProject2_16080384223060&#47;PolicyEffects' />
+      <param name='tabs' value='no' /><param name='toolbar' value='yes' />
+      <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Da&#47;DataVizProject2_16080384223060&#47;PolicyEffects&#47;1.png' /> 
+      <param name='animate_transition' value='yes' />
+      <param name='display_static_image' value='yes' />
+      <param name='display_spinner' value='yes' />
+      <param name='display_overlay' value='yes' />
+      <param name='display_count' value='yes' />
+      <param name='language' value='en' />
+    </object>
+  </div>                
+  
+  <script type='text/javascript'>                    
+  var divElement = document.getElementById('viz1608039245183');                    
+  var vizElement = divElement.getElementsByTagName('object')[0];                    
+  if ( divElement.offsetWidth > 800 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} 
+  else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} 
+  else { vizElement.style.width='100%';vizElement.style.height='1327px';}                     
+  var scriptElement = document.createElement('script');                    
+  scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+  vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+  </script>
+<br>
+<br>
+<ul>
+  <li>Waived COVID/respiratory illness-related copays during pandemic for incarcerated individuals had no effect on the number of cases but it helped in reducing the number of new deaths as more and more people went to the hospital on time without worrying about the copays</li><br>
+  <li>Reopening restaurants for outdoor dining proved to be safe and did not lead to further increase in the disease spread</li><br>
+  <li>Facemask mandate enforced by fines proved to be successful as the number of cases in the states without mandate is higher than those with mandate</li><br><br>
+        
+</body>
+    
+</html>
